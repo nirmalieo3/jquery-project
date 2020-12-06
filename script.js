@@ -5,12 +5,8 @@ $(function() {
     $('#sideMenu').toggle('slide', { direction: 'right'}, 1000)
     });
     var immagini = './img/back.jpg'
+     $('#style').parallax({imageSrc: immagini});
    
-    $('#style').parallax({imageSrc: immagini});
-    /*var listaImmagini = './img/back.jpg'
-    $('#style').each(function(i, el) {
-    $(el).parallax({imageSrc: listaImmagini})
-   });*/
     $(window).on('scroll', function() {
       var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
         if (scrollPosition > 700) {
