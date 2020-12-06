@@ -5,9 +5,6 @@ $(function() {
     $('#sideMenu').toggle('slide', { direction: 'right'}, 1000)
     });
   var immagini = './img/back.jpg'
-   /* $('#style').each(function(i, el) {
-    $(el).parallax({imageSrc: listaImmagini})
-   });*/
     $('#style').paralax({imageSrc: immagini});
 
    $(window).on('scroll', function() {
