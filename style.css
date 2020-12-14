@@ -505,10 +505,17 @@ p, li {
 }
 
 @media only screen and (max-device-width: 780px){
+
+  body {
+    width: 100%;
+    margin: 0;
+  }
+ 
+  
   .first-article{
     margin-bottom: 5px;
-    width: 90%;
-    margin-left: 5%;
+    width: 98%;
+    margin-left: 1%;
     padding: 20px;
     margin-bottom: 70px;
   }
@@ -520,7 +527,7 @@ p, li {
 aside {
     
     width: 100%;
-    margin-left:50px; 
+    margin-left:30%; 
     /*height: 500px;*/
     
 }
@@ -536,7 +543,7 @@ aside {
 
 .second .article1 {
     width:80%;
-    margin-left: 150px;
+    margin-left: 120px;
     padding:20px;
     margin-bottom: 70px;
   }
@@ -547,7 +554,7 @@ aside {
   }
 .second .article2 {
     width:80%;
-    margin-left: 150px;
+    margin-left: 120px;
     padding:20px;
      margin-bottom: 70px;
 }
@@ -560,37 +567,59 @@ aside {
 .finale {
     width: 95%;
     height: 100%;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 70px;
       
 }
  .finale-article {
     width: 95%;
-    margin-right: 10px
+   margin-left: 10%
 
   }
 
 .same {
-    width: 45%;
+    width: 40%;
     height: 250px;
    margin: 10px 10px;
 
   }
-  .sub-section-review {
+  .review-section {
+    width:100%;
+   height: 630px;
    
-    width:48%;
+}
+  .review {
+    width: 100%;
+    padding: 20px;
+    height: 29em;
+   
+    
+}
+
+.fix img{
+  width: 80%;
+}
+
+ .sub-section-review {
+   
+    width:47%;
     /*height: 28em;*/
-    margin: .3em .75em;
+   }
 
- }
-
+.fix-width{
+  width: 85%;
+}
+.fix-width2{
+  width: 75%;
+}
  
 .re3{
-   width:45%;
+   width:40%;
    height: 22em;
-    margin-left: 4em;
+    margin-left: 5em;
         padding-top: 2em;
-     padding-left: 2em;
+        border: 1px solid black;
+    
      
 }
 
@@ -598,7 +627,7 @@ aside {
    
    width:45%;
    height: 22em;
-    margin-left: .8em;
+    margin-left: .9em;
   
     padding-top: 2em;
      padding-left: 2em;
@@ -617,13 +646,15 @@ aside {
   padding-top: 20px;
 }
 #lightbox {
-  margin-top: 45%;
+  margin-top: 65%;
+  margin-left: 1%;
+
 }
 
  #lightbox img{
   display: inline-block;
   border: 5px ridge white;
-  margin: 55px;
+  margin: 10px;
 }
 
 footer {
