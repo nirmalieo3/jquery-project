@@ -529,7 +529,15 @@ p, li {
     font-size: 40px;
     margin-left: 2%;
    } 
- 
+    
+ button{
+     font-size: 22px;
+    }
+ #hamburger-container img {
+    max-width: 100%;
+    width: 60px;
+    
+}
   
   .first-article{
     margin-bottom: 5px;
