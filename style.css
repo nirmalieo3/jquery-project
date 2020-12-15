@@ -543,6 +543,12 @@ p, li {
  button {
      font-size: 22px;
     }
+    .nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+        font-size:22px;
+}
     
     #hamburger-container {
     width: 80px;
