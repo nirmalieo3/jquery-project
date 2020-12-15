@@ -112,7 +112,7 @@ body{
    align-items: center;
    text-align: center;
     align-items: center;
-
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .main h1{
@@ -140,12 +140,7 @@ body{
     padding: 5px 5px;
 }
 
-.nav {
-    margin-bottom: 5px;
-    background: linear-gradient(#e66465, #9198e5);
-     align-items: center;
 
-}
 
 .first-article{
     margin-bottom: 5px;
