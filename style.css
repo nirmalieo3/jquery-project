@@ -540,9 +540,15 @@ p, li {
     margin-left: 2%;
    } 
     
- button{
+ button {
      font-size: 22px;
     }
+    
+    #hamburger-container {
+    width: 80px;
+    height: 80px;
+   
+}
  #hamburger-container img {
     max-width: 100%;
     width: 60px;
